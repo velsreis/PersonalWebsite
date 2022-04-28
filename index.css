@@ -8,6 +8,11 @@ body {
     
 }
 
+
+h1{
+  font-size: 30px;
+}
+
 mark{ 
     font-size: 40px;
     color: #fff9f9cc;
@@ -118,4 +123,63 @@ mark{
 .github:hover {
   padding-left: 50px;
   color: #fff9f97c;
+}
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+  .main {
+    position: static;
+    padding-top: 15%;
+    margin: 0 auto;  
+    margin-bottom: 50px;
+}
+.flip-box {
+  position: static;
+  margin: 0 auto;  
+}
+}
+@media screen and (max-width: 550px) {
+  .main{
+    width: 450px;
+  }
+  h1{
+    font-size: 25px;
+  }
+  mark{
+    font-size: 35px;
+  }
+  .flip-box {
+    width: 350px;
+    height: 250px;
+  }
+  .flip-box-front {
+    font-size: 35px;
+  }
+  a{
+    font-size: 50px;  
+  }
+}
+@media screen and (max-width: 450px) {
+  .main{
+    width: 350px;
+  }
+  h1{
+    font-size: 23px;
+  }
+  mark{
+    font-size: 33px;
+  }
+  .flip-box {
+    width: 350px;
+    height: 250px;
+  }
+  .flip-box-front {
+    font-size: 35px;
+  }
+  a{
+    font-size: 50px;  
+  }
 }
